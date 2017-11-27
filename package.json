@@ -3,9 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "DEBUG=nodetest1:* ./bin/www"
+    "start": "DEBUG=nodetest1:* ./bin/www",
+    "mongod": "mongod --dbpath data/"
   },
   "dependencies": {
+    "gulp-shell": "*",
     "body-parser": "~1.16.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.0",
