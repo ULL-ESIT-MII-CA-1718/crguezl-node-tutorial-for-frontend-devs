@@ -37,8 +37,15 @@ u2 = printAll({ "username": "testuser2" }).shift();  // the only one in the arra
     }
   */
 
+let newstuff = [
+      { "username" : "testuser3", "email" : "testuser3@testdomain.com" }, 
+      { "username" : "testuser4", "email" : "testuser4@testdomain.com" }
+];
+db.usercollection.insert(newstuff);
+
 print("************** All ***************");
 // Updates an existing document or inserts a new document, depending on its document parameter.
 // If the document contains an _id field, then the save() method is equivalent to an update with the upsert option set to true and the query predicate on the _id field.
 db.usercollection.save({"_id": u2._id, "username" : "Juan", "email": "juan@gmail.com" });
 printAll({});
+
