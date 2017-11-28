@@ -15,7 +15,9 @@ November 2017
 
 * Substituted jade by pug
 * Previous versions of Pug/Jade supported an interpolation syntax such as:
+
 												a(href="/#{url}") Link
 	This syntax is no longer supported. 
+
               var url = 'pug-test.html';
 							a(href='/' + url) Link
