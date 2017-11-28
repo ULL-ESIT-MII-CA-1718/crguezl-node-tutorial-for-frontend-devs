@@ -4,14 +4,16 @@
   "private": true,
   "scripts": {
     "start": "DEBUG=nodetest1:* ./bin/www",
-    "mongod": "mongod --dbpath data/"
+    "mongod": "mongod -f mongod.conf",
+    "stop": "mongo ./stop-mongod.js",
+    "session": "mongo ./mongo-session.js"
   },
   "dependencies": {
-    "gulp-shell": "*",
     "body-parser": "~1.16.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.0",
-    "express": "~4.14.1",
+    "express": "^4.16.2",
+    "gulp-shell": "*",
     "mongodb": "*",
     "monk": "*",
     "morgan": "~1.7.0",

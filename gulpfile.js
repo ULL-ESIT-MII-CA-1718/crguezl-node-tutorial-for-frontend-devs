@@ -58,5 +58,6 @@ WARNING: Never use kill -9 (i.e. SIGKILL) to terminate a mongod instance.
 // The --shutdown option is available only on Linux systems.
 // gulp.task("stop", shell.task("mongod --dbpath data --shutdown"));
 gulp.task("stop", shell.task("mongo ./stop-mongod.js"));
+gulp.task("session", shell.task("mongo ./mongo-session.js"));
 
 gulp.task("lint", shell.task("jshint *.js **/*.js"));
