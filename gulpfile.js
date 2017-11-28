@@ -61,4 +61,5 @@ WARNING: Never use kill -9 (i.e. SIGKILL) to terminate a mongod instance.
 gulp.task("stop", shell.task("mongo ./stop-mongod.js"));
 gulp.task("session", shell.task("mongo ./mongo-session.js"));
 
+gulp.task("push", shell.task("git add . && git ci -am changes && git push origin master"));
 gulp.task("lint", shell.task("jshint *.js **/*.js"));

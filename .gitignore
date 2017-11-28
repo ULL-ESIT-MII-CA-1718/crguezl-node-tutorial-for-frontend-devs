@@ -1,6 +1,7 @@
 node_modules
 data
 package-lock.json
+*.html
 *.pdf
 *.ps
 *.toc
