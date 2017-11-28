@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+    h1= title
+    form#formAddUser(name="adduser",method="post",action="/adduser")
+        br
+        input#inputUserName(type="text", placeholder="user name", name="username", size="50", style="margin: 15px; border: 1px solid #4CAF50;")
+        br
+        input#inputUserEmail(type="text", placeholder="user email", name="useremail", size="50",  style="margin: 15px; border: 1px solid #4CAF50;")
+        br
+        button#btnSubmit(type="submit", style="background-color:lightgreen; margin: 20px") submit
