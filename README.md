@@ -6,6 +6,10 @@ See also:
 
 * [Getting Started With the Mongo Shell – Basic CRUD Operations](https://blog.kevinchisholm.com/javascript/mongodb/getting-started-with-the-mongo-shell-basic-crud-operations/)
 
+There is a tutorial by Kevin:
+
+* [Kevin's version of this tutorial](https://ull-esit-mii-ca-1718.github.io/express-and-mongodb-KevMCh/)
+* [Kevin's repo ULL-ESIT-MII-CA-1718/express-and-mongodb-KevMCh](https://github.com/ULL-ESIT-MII-CA-1718/express-and-mongodb-KevMCh)
 This tutorial has a second part:
 
 * [Creating a Simple RESTful Web App with Node.js, Express, and MongoDB](https://closebrace.com/tutorials/2017-03-02/creating-a-simple-restful-web-app-with-nodejs-express-and-mongodb)
