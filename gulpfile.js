@@ -39,6 +39,7 @@ To specify a dbPath for mongod to use as a data directory, use the --dbpath opti
 
   https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/#start-mongod-processes
 
+    Also: "mongod -f mongod.conf",
 */
 gulp.task("start", shell.task("((test -d data) || (mkdir data))  && (mongod --dbpath data)"));
 
