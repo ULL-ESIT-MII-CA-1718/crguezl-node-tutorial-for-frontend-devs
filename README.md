@@ -18,7 +18,7 @@ November 2017
 	```
 													a(href="/#{url}") Link
 	```
-		This syntax is no longer supported. Use instead:
+	This syntax is no longer supported. Use instead:
 	```
 								var url = 'pug-test.html';
 								a(href='/' + url) Link
