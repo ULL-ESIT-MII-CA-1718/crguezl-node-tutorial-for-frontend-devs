@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "DEBUG=nodetest1:* ./bin/www",
+    "start": "DEBUG=nodetest1:* nodemon ./bin/www",
     "mongod": "mongod -f mongod.conf",
     "stop": "mongo ./stop-mongod.js",
     "session": "mongo ./mongo-session.js"
@@ -12,12 +12,12 @@
     "body-parser": "~1.16.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.0",
-    "express": "^4.16.2",
+    "express": "latest",
     "gulp-shell": "*",
     "mongodb": "*",
     "monk": "*",
     "morgan": "~1.7.0",
-    "pug": "^0.1.0",
+    "pug": "^2.0.0-rc.4",
     "serve-favicon": "~2.3.2"
   }
 }
