@@ -17,7 +17,8 @@ November 2017
 * Previous versions of Pug/Jade supported an interpolation syntax such as:
 
 												a(href="/#{url}") Link
-	This syntax is no longer supported. 
+
+	This syntax is no longer supported. Use instead:
 
               var url = 'pug-test.html';
 							a(href='/' + url) Link
